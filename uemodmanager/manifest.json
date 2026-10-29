@@ -4,6 +4,11 @@
       "version": "v3.0.1-1181-g83330635",
       "url": "https://github.com/KintaroModding/ue4ss/releases/download/v3.0.1-1181-g83330635/mortalshell2_ue4ss_v3.0.1-1181-g83330635.zip",
       "sha256": "A155C673506D34AA78E4C20579E39DAB35F62CB68EA04D4263E5EAE39066AC4A"
+    },
+    "phantom-blade-zero": {
+      "version": "v3.0.1-1183-gcdbc0b66",
+      "url": "https://github.com/KintaroModding/ue4ss/releases/download/v3.0.1-1183-gcdbc0b66/phantombladezero_ue4ss_v3.0.1-1183-gcdbc0b66.zip",
+      "sha256": "5328F91D13BD93F080FAFAE9E7C07790AE838D65E94545831D6676C4C1870D4D"
     }
   }
 }
