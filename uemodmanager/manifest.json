@@ -6,9 +6,9 @@
       "sha256": "A155C673506D34AA78E4C20579E39DAB35F62CB68EA04D4263E5EAE39066AC4A"
     },
     "phantom-blade-zero": {
-      "version": "v3.0.1-1183-gcdbc0b66-r2",
-      "url": "https://github.com/KintaroModding/ue4ss/releases/download/v3.0.1-1183-gcdbc0b66-r2/phantombladezero_ue4ss_v3.0.1-1183-gcdbc0b66-r2.zip",
-      "sha256": "3C90CCAD430C00079F4E9C7BE5468AE8670C3DE48F4DE8C21027D9A56347A028",
+      "version": "v3.0.1-1188-gf885e8d2",
+      "url": "https://github.com/KintaroModding/ue4ss/releases/download/v3.0.1-1188-gf885e8d2/phantombladezero_ue4ss_v3.0.1-1188-gf885e8d2.zip",
+      "sha256": "14ACC9A34D3B3278860B63513544AC3F6E4759A673E57D6C0B5D3992B2CA5F28",
       "files": {
         "dwmapi.dll": [
           "F8BEC398FCBB2E3E8D1EF2875CAFCC15D09F82073402FC9879A9CBF78B8D9514",
