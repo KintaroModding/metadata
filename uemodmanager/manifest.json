@@ -8,7 +8,67 @@
     "phantom-blade-zero": {
       "version": "v3.0.1-1183-gcdbc0b66-r2",
       "url": "https://github.com/KintaroModding/ue4ss/releases/download/v3.0.1-1183-gcdbc0b66-r2/phantombladezero_ue4ss_v3.0.1-1183-gcdbc0b66-r2.zip",
-      "sha256": "3C90CCAD430C00079F4E9C7BE5468AE8670C3DE48F4DE8C21027D9A56347A028"
+      "sha256": "3C90CCAD430C00079F4E9C7BE5468AE8670C3DE48F4DE8C21027D9A56347A028",
+      "files": {
+        "dwmapi.dll": [
+          "F8BEC398FCBB2E3E8D1EF2875CAFCC15D09F82073402FC9879A9CBF78B8D9514"
+        ],
+        "ue4ss/LICENSE": [
+          "99E1D8F8B7CB68E8B2313380AE3B0C8115E39DFBC443FCF21FD67AB74CE1D57E"
+        ],
+        "ue4ss/MemberVariableLayout.ini": [
+          "8C5017D84C4553632B2FFBA320FF62D3998B273640E302A28B60D4BE98703FD0"
+        ],
+        "ue4ss/Mods/BPML_GenericFunctions/Scripts/main.lua": [
+          "DF87C361CDFC231AC8017FF9B930C323FAC09F436CA4C41D48E952FF4B38D38F"
+        ],
+        "ue4ss/Mods/BPModLoaderMod/Scripts/main.lua": [
+          "C4D6602DC57559029E0E709650E43F33354BCB23F1A5DF2EBE84D4651EBD08A3",
+          "67DEDDBFDC0077788EA03555DBF53B4BDE8C327AD34AA3197054A38371156A0E"
+        ],
+        "ue4ss/Mods/CheatManagerEnablerMod/Scripts/main.lua": [
+          "15C7722168EB8966ED454E900E04DE4B0ADE42657905D8016C0E0660C119CD9E"
+        ],
+        "ue4ss/Mods/ConsoleCommandsMod/Scripts/dump_object.lua": [
+          "365B7E8A803F8AE917F54F6C852854C681E388227DD1F94B0EA3F6FB938B5086"
+        ],
+        "ue4ss/Mods/ConsoleCommandsMod/Scripts/main.lua": [
+          "5BF33CD4EF9F6A155FE5F7842218A6486C2C227858FFD99806E75D81D0DA9F27"
+        ],
+        "ue4ss/Mods/ConsoleCommandsMod/Scripts/set.lua": [
+          "876E7DE49F0E30A4329C081472BC7D5E1948459C774B7ABBB8BE4B6323F16EC8"
+        ],
+        "ue4ss/Mods/ConsoleCommandsMod/Scripts/summon_unloaded_assets.lua": [
+          "194B557404B6078767F8B57B836AA44D084CF6F3F2CBDE71A6831857567F8103"
+        ],
+        "ue4ss/Mods/ConsoleEnablerMod/Scripts/main.lua": [
+          "4455BF19D498B74747EA17E61E118464FA3A010B8ECFEBC9C92804ECB73357AB"
+        ],
+        "ue4ss/Mods/Keybinds/Scripts/main.lua": [
+          "76B7827131CBFEB78BAEB6B6CBD2F0B6662EC9AF199D928F92F3C6C842710298"
+        ],
+        "ue4ss/Mods/LineTraceMod/Scripts/main.lua": [
+          "05C181A5CC3CB24E0BD7496D6BBC14A1111D0A1E731A2526203B41B07D972DAE"
+        ],
+        "ue4ss/Mods/shared/UEHelpers/UEHelpers.lua": [
+          "7476F02EEF0C87BFEAB169F2FFE2E704363FAEAAE4BF9F1BDA574B1E34F4A0E9"
+        ],
+        "ue4ss/Mods/SplitScreenMod/Scripts/main.lua": [
+          "05094AB61F016EBFCB651A0271A4C614884881B847090E6A74E6A51754E088DB"
+        ],
+        "ue4ss/UE4SS.dll": [
+          "C273E7228687B647226FD63D7CA65888D313ECE6BE18996EC1320D00A5EFE1F8"
+        ],
+        "ue4ss/UE4SS_SDK_Backends/UE4SS.json": [
+          "6B8C1725FF59A318B812D5952F63107778B4CEB22B882B297A3666EE9E06C8FF"
+        ],
+        "ue4ss/UE4SS_Signatures/GNatives.lua": [
+          "C7BA42F56C04C784217CBF5B50FFC11F8E66AA246DF5813321C4D4A7A06D6598"
+        ],
+        "ue4ss/UE4SS_Signatures/GUObjectArray.lua": [
+          "0066CA60427679E1B9D86D18857EAAB61047C0E6959A45A863D9F9DD3CB7EFCE"
+        ]
+      }
     }
   }
 }
