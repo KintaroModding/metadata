@@ -1,22 +1,22 @@
 {
-  "tag_name": "v2.1.0",
-  "html_url": "https://github.com/KintaroModding/uemodmanager/releases/tag/v2.1.0",
-  "published_at": "2026-11-12T13:51:54Z",
-  "body": "**Backups, a page of their own**\n- **Backups** has its own entry in the menu, below UE4SS. Everything about save backups is there now, out of Settings: the save folder, the backup each time you start the game, and **Back up now**.\n- **Normal and Personal:** normal backups are on the left. A slider sets how many the app keeps, from 2 to 20 (6 by default). The green arrow moves a backup to **Personal** on the right, where the app never removes it and it does not count. The red arrow moves it back.\n- **Notes:** give every backup a note, such as \"Before the final boss\". Type one next to **Back up now** for a new backup.\n- **Delete** a backup you do not need, after a question.\n\n**Also new**\n- A tighter menu, no subtexts under the page titles, and the version as the title of the About page.\n\n**Thanks** to EstusFlask for the idea of a chosen number of backups and its first version (#21).\n\n**Install:** unzip `uemm_2.1.0.zip` into a folder you can write to, for example `Documents\\UE MM`, and start `UEModManager.exe`. One zip for every game. It needs the [.NET 8 Desktop Runtime (x64)](https://dotnet.microsoft.com/download/dotnet/8.0).\n\n**Update from an older version:** the app offers the update at start; one click installs it. Your backups stay; the app now keeps 6 by default instead of 5. Or replace `UEModManager.exe` with the new one. The `Data` folder stays. `uemm_phantom-blade-zero_2.1.0.zip` is the same file under its old name, for older versions of the app.\n\n**Something does not work?** In the app, open Settings ▸ Report a problem, copy the report and open an [issue](https://github.com/KintaroModding/uemodmanager/issues) with it.\n",
+  "tag_name": "v2.2.0",
+  "html_url": "https://github.com/KintaroModding/uemodmanager/releases/tag/v2.2.0",
+  "published_at": "2026-11-14T22:09:32Z",
+  "body": "**The openmods page**\n- **openmods** has its own entry in the menu: the open-source mods listed for your game on [openmods.nexus](https://openmods.nexus), with search and sort. One click installs a mod, and one click updates it.\n- **Mods | Tools:** the mods, or the tools such as UE4SS. Every card shows the mod's type, and the **Type** filter shows one type at a time. **MOD TYPE INFO** explains each type.\n- **Hide installed** leaves out what you already have. The app keeps your choice.\n- **Full view** shows the page over the whole window, as a grid of cards with **Page** and **Source** buttons.\n- On the **Mods** page, a mod installed from openmods links to its page there, in orange, and its update installs with one click.\n\n**Also new**\n- **Japanese and Korean:** choose in Settings ▸ Language.\n- **Mod types:** pak mods with `.utoc` and `.ucas` files are **PAK** too. Mods in PBZModLoader's `mods` folder have their own type, **PBZModLoader**, and their data files count as settings: you can edit them, an update keeps them, and an uninstall backs them up.\n- **Tray icon only:** a new switch in Settings ▸ Tray icon removes the taskbar button. Minimize then hides the window in the tray.\n- **No flash at start:** the window shows once it is drawn.\n- **Shadows** on the window and its popups, and a dimmer border while the window is not in front.\n- **Show files** no longer lists a settings file that a mod writes beside its own.\n- **Update check:** versions such as `0.5.2.withHP` and `1.2a` on a mod page are read correctly (#22).\n- **For scripts:** `UEModManager.exe --cli` lists, installs, enables, disables and uninstalls mods, backs up saves and manages UE4SS. `UEModManager.exe --cli --help` lists the commands.\n\n**Thanks** to CooperZhuang for the command line tool and the settings file fix (#25, #26, #28, #29, #30), and to HumanMus1c for the shadows (#27) and the report on the update check (#22).\n\n**Install:** unzip `uemm_2.2.0.zip` into a folder you can write to, for example `Documents\\UE MM`, and start `UEModManager.exe`. One zip for every game. It needs the [.NET 8 Desktop Runtime (x64)](https://dotnet.microsoft.com/download/dotnet/8.0).\n\n**Update from an older version:** the app offers the update at start; one click installs it. Or replace `UEModManager.exe` with the new one. The `Data` folder stays. `uemm_phantom-blade-zero_2.2.0.zip` is the same file under its old name, for older versions of the app.\n\n**Something does not work?** In the app, open Settings ▸ Report a problem, copy the report and open an [issue](https://github.com/KintaroModding/uemodmanager/issues) with it.\n",
   "assets": [
     {
-      "name": "uemm_2.1.0.zip",
-      "size": 4451444,
-      "digest": "sha256:4a9b5afc496b017fb1323c68e11387193ae763a2fd8797aaf345f674cf288221",
-      "browser_download_url": "uemm_2.1.0.zip",
-      "github_download_url": "https://github.com/KintaroModding/uemodmanager/releases/download/v2.1.0/uemm_2.1.0.zip"
+      "name": "uemm_2.2.0.zip",
+      "size": 4680088,
+      "digest": "sha256:8528e8228c8218846287e31d9e55f9c063abf8d6abdeaa239ec6999087ae9105",
+      "browser_download_url": "uemm_2.2.0.zip",
+      "github_download_url": "https://github.com/KintaroModding/uemodmanager/releases/download/v2.2.0/uemm_2.2.0.zip"
     },
     {
-      "name": "uemm_phantom-blade-zero_2.1.0.zip",
-      "size": 4451444,
-      "digest": "sha256:4a9b5afc496b017fb1323c68e11387193ae763a2fd8797aaf345f674cf288221",
-      "browser_download_url": "uemm_2.1.0.zip",
-      "github_download_url": "https://github.com/KintaroModding/uemodmanager/releases/download/v2.1.0/uemm_phantom-blade-zero_2.1.0.zip"
+      "name": "uemm_phantom-blade-zero_2.2.0.zip",
+      "size": 4680088,
+      "digest": "sha256:8528e8228c8218846287e31d9e55f9c063abf8d6abdeaa239ec6999087ae9105",
+      "browser_download_url": "uemm_2.2.0.zip",
+      "github_download_url": "https://github.com/KintaroModding/uemodmanager/releases/download/v2.2.0/uemm_phantom-blade-zero_2.2.0.zip"
     }
   ]
 }
