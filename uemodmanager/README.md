@@ -35,7 +35,7 @@ Optional: the one mod the app recommends for a game, at the top of its Mods page
 | `repo` | The mod's GitHub repo, as `owner/name`. The app reads it when the copy below cannot be read. |
 | `name` | The name shown before the mod is installed. |
 | `folder` | Its folder in UE4SS's `Mods`, so a copy installed by hand is recognized. |
-| `text` | What it does, by language code (`en`, `zh-CN`, `zh-TW`, `vi`); English when a language has none. |
+| `text` | What it does, by language code (`en`, `zh-CN`, `zh-TW`, `vi`, and since app 2.2.0 `ja`, `ko`); English when a language has none. |
 | `filePrefix` | Optional: the start of the zip's name, when a release holds several zips. |
 | `experimental` | Optional: `true` makes the card's label "Recommended - Experimental". |
 | `notes` | Optional: technical notes by language code, paragraphs apart by an empty line (`\n\n`). A box on the card opens them, with a link to `repo` as the source code. |
