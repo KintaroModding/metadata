@@ -60,7 +60,6 @@
       "repo": "KintaroModding/phantombladezero_cppbypass",
       "name": "UE4SS C++ BYPASS",
       "folder": "phantombladezero_cppbypass",
-      "experimental": true,
       "text": {
         "en": "Brings script-based pak mods back after the game's new script check.",
         "zh-CN": "让脚本类 pak 模组在游戏新增脚本检查后重新可用。",
