@@ -43,7 +43,7 @@
     "wuchang-fallen-feathers": {
       "version": "v3.0.1-934-gcac01ee2",
       "url": "https://github.com/KintaroModding/ue4ss/releases/download/v4.0.0/wuchang_ue4ss_v3.0.1-934-gcac01ee2.zip",
-      "sha256": "09C7A3F0ACCB5C97F74F8E4EB9420193693980A44575733F22DE030F1E2A8141",
+      "sha256": "C4DE5CD0E378E3D47B27DCD4A1FA6AB8FFD5071E3DF63CB6B74AC924BF956657",
       "mirror": "ue4ss/wuchang_ue4ss_v3.0.1-934-gcac01ee2.zip",
       "files": {
         "dwmapi.dll": [
