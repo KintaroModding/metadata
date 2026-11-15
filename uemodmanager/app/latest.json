@@ -1,22 +1,22 @@
 {
-  "tag_name": "v2.2.1",
-  "html_url": "https://github.com/KintaroModding/uemodmanager/releases/tag/v2.2.1",
-  "published_at": "2026-11-15T11:34:13Z",
-  "body": "**New game: WUCHANG: Fallen Feathers** (experimental)\n- Its own look, **UE4SS** with one click (our build for the game), and **save backups**.\n- Pak mods load only with **bitfix**, the Mod Enabler: the **Mods** page offers it at the top, and one click installs it.\n\n**Choose your game**\n- **See all games** at the top left of the game picker shows every game as cards over the whole window. **Mortal Shell II** (experimental) is back there.\n- The picker keeps its three highlight cards.\n\n**Also new**\n- **Update check:** each mod with a mod page is compared with its own file there, so an optional file no longer shows a false update (#31, #32).\n- **Uninstall of a UE4SS mod:** the question names the files the mod wrote into its own folder, such as logs, and a second question can move them into the manager's backups (#33).\n- **Mod details** and **Show files** keep **Close** in view, also for a mod with many files.\n\n**Thanks** to CooperZhuang for the update check by file and the files a mod leaves behind (#32, #33), and to HumanMus1c for the idea of the update check by file (#31).\n\n**Install:** unzip `uemm_2.2.1.zip` into a folder you can write to, for example `Documents\\UE MM`, and start `UEModManager.exe`. One zip for every game. It needs the [.NET 8 Desktop Runtime (x64)](https://dotnet.microsoft.com/download/dotnet/8.0).\n\n**Update from an older version:** the app offers the update at start; one click installs it. Or replace `UEModManager.exe` with the new one. The `Data` folder stays. `uemm_phantom-blade-zero_2.2.1.zip` is the same file under its old name, for older versions of the app.\n\n**Something does not work?** In the app, open Settings ▸ Report a problem, copy the report and open an [issue](https://github.com/KintaroModding/uemodmanager/issues) with it.\n",
+  "tag_name": "v2.3.0",
+  "html_url": "https://github.com/KintaroModding/uemodmanager/releases/tag/v2.3.0",
+  "published_at": "2026-11-15T17:08:41Z",
+  "body": "**openmods page**\n- **Pictures:** click a card's cover to see the mod's cover and screenshots, with back and next buttons and a row of thumbnails. A small box on the cover shows how many images there are.\n- **Picture cache:** the pictures are kept in the `Data` folder, so the page no longer downloads every cover at each start. **Settings ▸ Clear picture cache** empties it.\n- **Changelog:** a button on each card shows what changed in each version, from the mod's releases on GitHub.\n- **Downloads:** each card shows how often the mod was downloaded, and the list can sort by downloads.\n- Tidier cards: the version line has a line of its own, and the full view's cards use the whole width.\n\n**Install:** unzip `uemm_2.3.0.zip` into a folder you can write to, for example `Documents\\UE MM`, and start `UEModManager.exe`. One zip for every game. It needs the [.NET 8 Desktop Runtime (x64)](https://dotnet.microsoft.com/download/dotnet/8.0).\n\n**Update from an older version:** the app offers the update at start; one click installs it. Or replace `UEModManager.exe` with the new one. The `Data` folder stays. `uemm_phantom-blade-zero_2.3.0.zip` is the same file under its old name, for older versions of the app.\n\n**Something does not work?** In the app, open Settings ▸ Report a problem, copy the report and open an [issue](https://github.com/KintaroModding/uemodmanager/issues) with it.\n",
   "assets": [
     {
-      "name": "uemm_2.2.1.zip",
-      "size": 5199898,
-      "digest": "sha256:677f02d118b6f88de4e1e47e0570834586303efa18ad22bd5fcd2097a4ddac40",
-      "browser_download_url": "uemm_2.2.1.zip",
-      "github_download_url": "https://github.com/KintaroModding/uemodmanager/releases/download/v2.2.1/uemm_2.2.1.zip"
+      "name": "uemm_2.3.0.zip",
+      "size": 5267185,
+      "digest": "sha256:2d16487a7a586e4e1d042d50136fc64eebff79624cfa51781777dfe6f4ce22f4",
+      "browser_download_url": "uemm_2.3.0.zip",
+      "github_download_url": "https://github.com/KintaroModding/uemodmanager/releases/download/v2.3.0/uemm_2.3.0.zip"
     },
     {
-      "name": "uemm_phantom-blade-zero_2.2.1.zip",
-      "size": 5199898,
-      "digest": "sha256:677f02d118b6f88de4e1e47e0570834586303efa18ad22bd5fcd2097a4ddac40",
-      "browser_download_url": "uemm_2.2.1.zip",
-      "github_download_url": "https://github.com/KintaroModding/uemodmanager/releases/download/v2.2.1/uemm_phantom-blade-zero_2.2.1.zip"
+      "name": "uemm_phantom-blade-zero_2.3.0.zip",
+      "size": 5267185,
+      "digest": "sha256:2d16487a7a586e4e1d042d50136fc64eebff79624cfa51781777dfe6f4ce22f4",
+      "browser_download_url": "uemm_2.3.0.zip",
+      "github_download_url": "https://github.com/KintaroModding/uemodmanager/releases/download/v2.3.0/uemm_phantom-blade-zero_2.3.0.zip"
     }
   ]
 }
