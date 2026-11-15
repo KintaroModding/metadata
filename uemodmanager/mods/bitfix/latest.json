@@ -1,0 +1,15 @@
+{
+  "tag_name": "v0.1.0-80af6c23",
+  "html_url": "https://github.com/KintaroModding/bitfix/releases/tag/v0.1.0-80af6c23",
+  "published_at": "2026-11-15T11:17:39Z",
+  "body": "[bitfix](https://github.com/trumank/bitfix) by trumank, commit\n[`80af6c23`](https://github.com/trumank/bitfix/commit/80af6c231cb9bb1d441f02b3c66da3dbd4af115e) (2024-12-11, bitfix\n0.1.0), republished with a ready package for Wuchang: Fallen Feathers.\n\nFiles:\n\n- `wuchang_bitfix_v0.1.0-80af6c23.zip`: the Wuchang: Fallen Feathers Mod Enabler. It turns off the game's pak\n  signature check, so the game loads mod paks from `Project_Plague\\Content\\Paks\\~mods\\`. Unpack it into the game's\n  main folder (the one that holds `Project_Plague\\`); the files land in `Project_Plague\\Binaries\\Win64\\`, next to\n  `Project_Plague-Win64-Shipping.exe`: the bitfix DLL as `d3d9.dll` and `dsound.dll`, the patch `bitfix\\sig.lua`,\n  and `bitfix-LICENSE.txt`. The same package the author uses with the game.\n- `SHA256SUMS.txt`: the SHA-256 of the zip.\n\nTo remove it: delete `d3d9.dll`, `dsound.dll`, the folder `bitfix\\` and `bitfix-LICENSE.txt` from\n`Project_Plague\\Binaries\\Win64\\`.\n\nbitfix is made by trumank (Truman Kilen), MIT license. This package is unofficial; report problems with bitfix itself\nto https://github.com/trumank/bitfix/issues. What this fork adds: `FORK.md`; how to install and use it:\n`openmods.md`.\n",
+  "assets": [
+    {
+      "name": "wuchang_bitfix_v0.1.0-80af6c23.zip",
+      "size": 1189871,
+      "digest": "sha256:c625da780f4b3b8db91fe04fd00f98e5581b30b0adffe3bc8698574f967c0ab5",
+      "browser_download_url": "wuchang_bitfix_v0.1.0-80af6c23.zip",
+      "github_download_url": "https://github.com/KintaroModding/bitfix/releases/download/v0.1.0-80af6c23/wuchang_bitfix_v0.1.0-80af6c23.zip"
+    }
+  ]
+}
