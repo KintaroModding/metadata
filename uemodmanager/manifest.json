@@ -53,6 +53,20 @@
           "5F5D84009099F4598F6F8568A6E968EF7DCB7461084250AAD0F3A834FE17E962"
         ]
       }
+    },
+    "stellar-blade": {
+      "version": "sb-ue4ss-1.3",
+      "url": "https://github.com/KintaroModding/ue4ss/releases/download/v4.0.0/stellarblade_ue4ss_sb-ue4ss-1.3.zip",
+      "sha256": "C4D814FB55482C45656F4D0E010813F21919B1C875D3D191D416394DA207CFB8",
+      "mirror": "ue4ss/stellarblade_ue4ss_sb-ue4ss-1.3.zip",
+      "files": {
+        "dwmapi.dll": [
+          "A30732477F2D7134B712AA1D295EBDF2F1B5A9DD46A10B6CE494819CBA1774FA"
+        ],
+        "ue4ss/UE4SS.dll": [
+          "E0CC51CE5B47D5BE82194510B0B4B4054DD15CE0322A983655A022F92D27DABE"
+        ]
+      }
     }
   },
   "recommended": {
