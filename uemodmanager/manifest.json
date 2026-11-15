@@ -177,6 +177,50 @@
           "https://github.com/czastack"
         ]
       }
+    },
+    "wuchang-fallen-feathers": {
+      "repo": "KintaroModding/bitfix",
+      "name": "bitfix (Mod Enabler for PAK mods)",
+      "installedName": "bitfix",
+      "filePrefix": "wuchang_bitfix_",
+      "ue4ss": false,
+      "text": {
+        "en": "The game loads pak mods only with it: it turns off the game's pak signature check. It needs no UE4SS.",
+        "zh-CN": "有了它，游戏才会加载 pak 模组：它会关闭游戏的 pak 签名校验。它无需 UE4SS。",
+        "zh-TW": "有了它，遊戲才會載入 pak 模組：它會關閉遊戲的 pak 簽章檢查。它不需要 UE4SS。",
+        "vi": "Game chỉ tải mod pak khi có nó: nó tắt bước kiểm tra chữ ký pak của game. Nó không cần UE4SS.",
+        "ja": "これがないとゲームはpak MODを読み込みません。ゲームのpak署名チェックを無効にします。UE4SSは不要です。",
+        "ko": "이것이 있어야 게임이 pak 모드를 불러옵니다. 게임의 pak 서명 검사를 끕니다. UE4SS는 필요 없습니다."
+      },
+      "notes": {
+        "en": "bitfix is a small DLL by trumank. The game loads it by itself, under the name of a system DLL the game uses. At each start, bitfix reads the Lua patches in the folder bitfix next to it and changes the game in memory. No game file is changed.\n\nThis package puts it next to the game's exe as d3d9.dll and dsound.dll (the same DLL under two names), with the patch bitfix\\sig.lua. The patch turns off the game's pak signature check, so the game loads the mod paks in Project_Plague\\Content\\Paks\\~mods.\n\nOnly one file can have each name next to the exe. Another tool that also uses d3d9.dll or dsound.dll there, such as another DLL loader or an upscaler, clashes with it. UE4SS uses dwmapi.dll and works beside it.\n\nThe patch finds the check by a byte pattern, so a game update that changes that code needs a new version. Tested in the game: with it, pak mods load. This is a fork of bitfix by trumank, under the MIT license.",
+        "zh-CN": "bitfix 是 trumank 制作的一个小型 DLL。它使用游戏所用的某个系统 DLL 的名称，游戏会自行加载它。每次启动时，bitfix 会读取其旁边 bitfix 文件夹中的 Lua 补丁，并在内存中修改游戏。不会更改任何游戏文件。\n\n此安装包将它以 d3d9.dll 和 dsound.dll（同一个 DLL 的两个名称）放在游戏 exe 旁边，并附带补丁 bitfix\\sig.lua。该补丁会关闭游戏的 pak 签名校验，使游戏加载 Project_Plague\\Content\\Paks\\~mods 中的模组 pak。\n\nexe 旁边每个文件名只能有一个文件。如果其他工具（例如另一个 DLL 加载器或超分辨率工具）也在那里使用 d3d9.dll 或 dsound.dll，就会与它冲突。UE4SS 使用 dwmapi.dll，可以与它同时使用。\n\n补丁通过字节特征码找到该校验，因此如果游戏更新改动了这部分代码，就需要新版本。已在游戏中测试：有了它，pak 模组可以加载。这是 trumank 所作 bitfix 的分支，使用 MIT 许可。",
+        "zh-TW": "bitfix 是 trumank 製作的一個小型 DLL。它使用遊戲所用的某個系統 DLL 的名稱，遊戲會自行載入它。每次啟動時，bitfix 會讀取其旁邊 bitfix 資料夾中的 Lua 修補，並在記憶體中修改遊戲。不會變更任何遊戲檔案。\n\n此安裝包將它以 d3d9.dll 和 dsound.dll（同一個 DLL 的兩個名稱）放在遊戲 exe 旁邊，並附帶修補 bitfix\\sig.lua。該修補會關閉遊戲的 pak 簽章檢查，讓遊戲載入 Project_Plague\\Content\\Paks\\~mods 中的模組 pak。\n\nexe 旁邊每個檔名只能有一個檔案。如果其他工具（例如另一個 DLL 載入器或超解析度工具）也在那裡使用 d3d9.dll 或 dsound.dll，就會與它衝突。UE4SS 使用 dwmapi.dll，可以與它同時使用。\n\n修補透過位元組特徵碼找到該檢查，因此如果遊戲更新改動了這部分程式碼，就需要新版本。已在遊戲中測試：有了它，pak 模組可以載入。這是 trumank 所作 bitfix 的分支，採用 MIT 授權。",
+        "vi": "bitfix là một tệp DLL nhỏ do trumank làm. Game tự nạp nó khi nó mang tên một DLL hệ thống mà game dùng. Mỗi lần khởi động, bitfix đọc các bản vá Lua trong thư mục bitfix bên cạnh nó và thay đổi game trong bộ nhớ. Không tệp game nào bị thay đổi.\n\nGói này đặt nó cạnh exe của game với tên d3d9.dll và dsound.dll (cùng một DLL với hai tên), kèm bản vá bitfix\\sig.lua. Bản vá này tắt bước kiểm tra chữ ký pak của game, nên game tải các pak mod trong Project_Plague\\Content\\Paks\\~mods.\n\nCạnh exe, mỗi tên chỉ dùng được cho một tệp. Một công cụ khác cũng dùng d3d9.dll hoặc dsound.dll ở đó, như một trình nạp DLL khác hoặc một công cụ upscale, sẽ xung đột với nó. UE4SS dùng dwmapi.dll và hoạt động cùng nó.\n\nBản vá tìm bước kiểm tra bằng một mẫu byte, nên bản cập nhật game thay đổi đoạn mã đó sẽ cần phiên bản mới. Đã kiểm tra trong game: có nó, mod pak tải được. Đây là bản fork của bitfix do trumank làm, theo giấy phép MIT.",
+        "ja": "bitfixはtrumankが作った小さなDLLです。ゲームが使うシステムDLLの名前で置くと、ゲームが自動で読み込みます。起動のたびに、bitfixは隣のbitfixフォルダーにあるLuaパッチを読み込み、メモリ上でゲームを変更します。ゲームのファイルは変更しません。\n\nこのパッケージは、ゲームのexeの隣にd3d9.dllとdsound.dll（同じDLLを2つの名前で）として置き、パッチbitfix\\sig.luaを添えます。このパッチがゲームのpak署名チェックを無効にするので、ゲームはProject_Plague\\Content\\Paks\\~modsにあるMODのpakを読み込みます。\n\nexeの隣には、同じ名前のファイルは1つしか置けません。別のDLLローダーやアップスケーラーなど、そこでd3d9.dllやdsound.dllを使う別のツールとは競合します。UE4SSはdwmapi.dllを使うので、一緒に使えます。\n\nパッチはバイトパターンでチェックを見つけるため、その部分を変えるゲームのアップデートがあると新しいバージョンが必要です。ゲーム内でテスト済みです。これがあればpak MODが読み込まれます。trumankによるbitfixのフォークで、MITライセンスです。",
+        "ko": "bitfix는 trumank가 만든 작은 DLL입니다. 게임이 사용하는 시스템 DLL의 이름으로 두면 게임이 직접 불러옵니다. 시작할 때마다 bitfix는 옆에 있는 bitfix 폴더의 Lua 패치를 읽고 메모리에서 게임을 변경합니다. 게임 파일은 변경하지 않습니다.\n\n이 패키지는 게임 exe 옆에 d3d9.dll과 dsound.dll(같은 DLL에 두 개의 이름)로 두고, 패치 bitfix\\sig.lua를 함께 넣습니다. 이 패치가 게임의 pak 서명 검사를 끄므로 게임이 Project_Plague\\Content\\Paks\\~mods의 모드 pak을 불러옵니다.\n\nexe 옆에는 같은 이름의 파일을 하나만 둘 수 있습니다. 다른 DLL 로더나 업스케일러처럼 그곳에서 d3d9.dll이나 dsound.dll을 사용하는 다른 도구와는 충돌합니다. UE4SS는 dwmapi.dll을 사용하므로 함께 사용할 수 있습니다.\n\n패치는 바이트 패턴으로 검사를 찾으므로, 그 코드를 바꾸는 게임 업데이트가 있으면 새 버전이 필요합니다. 게임에서 테스트했습니다. 이것이 있으면 pak 모드를 불러옵니다. trumank의 bitfix를 포크한 것이며 MIT 라이선스입니다."
+      },
+      "thanks": {
+        "box": {
+          "en": "THANK YOU TRUMANK",
+          "zh-CN": "感谢 TRUMANK",
+          "zh-TW": "感謝 TRUMANK",
+          "vi": "CẢM ƠN TRUMANK",
+          "ja": "TRUMANKに感謝",
+          "ko": "TRUMANK에게 감사"
+        },
+        "text": {
+          "en": "A big thank you to trumank, the creator of bitfix, the small tool that opens WUCHANG to pak mods.\n\nAnd thank you for sharing it as open source. <3",
+          "zh-CN": "非常感谢 bitfix 的作者 trumank，这个小工具让《明末：渊虚之羽》可以使用 pak 模组。\n\n也感谢 trumank 愿意开源分享。<3",
+          "zh-TW": "非常感謝 bitfix 的作者 trumank，這個小工具讓《明末：淵虛之羽》可以使用 pak 模組。\n\n也感謝 trumank 願意開源分享。<3",
+          "vi": "Xin cảm ơn rất nhiều trumank, tác giả của bitfix, công cụ nhỏ giúp WUCHANG dùng được mod pak.\n\nCũng xin cảm ơn vì đã chia sẻ dưới dạng mã nguồn mở. <3",
+          "ja": "bitfixの作者trumankに心から感謝します。この小さなツールのおかげで、WUCHANGでpak MODが使えます。\n\nオープンソースで公開してくれたことにも感謝します。<3",
+          "ko": "bitfix를 만든 trumank에게 큰 감사를 드립니다. 이 작은 도구 덕분에 WUCHANG에서 pak 모드를 쓸 수 있습니다.\n\n오픈 소스로 공유해 주셔서 감사합니다. <3"
+        },
+        "links": [
+          "https://github.com/trumank"
+        ]
+      }
     }
   }
 }
