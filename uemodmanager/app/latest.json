@@ -1,22 +1,22 @@
 {
-  "tag_name": "v2.4.0",
-  "html_url": "https://github.com/KintaroModding/uemodmanager/releases/tag/v2.4.0",
-  "published_at": "2026-11-19T21:06:47Z",
-  "body": "**Font and interface scale**\n- **Settings ▸ Interface language** has two new choices: **Font** (the theme's default, the Windows font, or any font installed on the PC) and **Interface scale** from 85 to 140 %. Titles keep each game's own font. **Reset** puts both back.\n- At a large scale, the sidebar scrolls as a whole, and the openmods cards put their buttons below the text, so nothing gets cut off.\n- Nothing changes for a player who leaves both settings alone. Thanks to HumanMus1c, who made this.\n\n**Also new**\n- Scroll areas no longer show a dotted frame after a key press.\n- Traditional Chinese: the app's own words in a few texts (thanks, CooperZhuang).\n\n**Install:** unzip `uemm_2.4.0.zip` into a folder you can write to, for example `Documents\\UE MM`, and start `UEModManager.exe`. One zip for every game. It needs the [.NET 8 Desktop Runtime (x64)](https://dotnet.microsoft.com/download/dotnet/8.0).\n\n**Update from an older version:** the app offers the update at start; one click installs it. Or replace `UEModManager.exe` with the new one. The `Data` folder stays. `uemm_phantom-blade-zero_2.4.0.zip` is the same file under its old name, for older versions of the app.\n\n**Something does not work?** In the app, open Settings ▸ Report a problem, copy the report and open an [issue](https://github.com/KintaroModding/uemodmanager/issues) with it.\n",
+  "tag_name": "v2.4.1",
+  "html_url": "https://github.com/KintaroModding/uemodmanager/releases/tag/v2.4.1",
+  "published_at": "2026-11-20T19:00:32Z",
+  "body": "**A quiet window**\n- The open window no longer keeps the graphics card busy while nothing happens. A hidden busy spinner kept spinning and made the window redraw at every screen refresh; now it spins only while the app works.\n\n**Also new**\n- **Settings ▸ Interface language ▸ Smooth scrolling:** turn it off to scroll as Windows does, without the glide.\n\n**Install:** unzip `uemm_2.4.1.zip` into a folder you can write to, for example `Documents\\UE MM`, and start `UEModManager.exe`. One zip for every game. It needs the [.NET 8 Desktop Runtime (x64)](https://dotnet.microsoft.com/download/dotnet/8.0).\n\n**Update from an older version:** the app offers the update at start; one click installs it. Or replace `UEModManager.exe` with the new one. The `Data` folder stays. `uemm_phantom-blade-zero_2.4.1.zip` is the same file under its old name, for older versions of the app.\n\n**Something does not work?** In the app, open Settings ▸ Report a problem, copy the report and open an [issue](https://github.com/KintaroModding/uemodmanager/issues) with it.\n",
   "assets": [
     {
-      "name": "uemm_2.4.0.zip",
-      "size": 5687374,
-      "digest": "sha256:bea9595a7cffcb0270c0bf9de2e328ea1c41b84eb2f12f7f62de5cb653cfbaae",
-      "browser_download_url": "uemm_2.4.0.zip",
-      "github_download_url": "https://github.com/KintaroModding/uemodmanager/releases/download/v2.4.0/uemm_2.4.0.zip"
+      "name": "uemm_2.4.1.zip",
+      "size": 5688596,
+      "digest": "sha256:68724af734e6cd0aeeed3bfc04e0a3bbd8d1a535b6a8765b5b8299ee6e4329c9",
+      "browser_download_url": "uemm_2.4.1.zip",
+      "github_download_url": "https://github.com/KintaroModding/uemodmanager/releases/download/v2.4.1/uemm_2.4.1.zip"
     },
     {
-      "name": "uemm_phantom-blade-zero_2.4.0.zip",
-      "size": 5687374,
-      "digest": "sha256:bea9595a7cffcb0270c0bf9de2e328ea1c41b84eb2f12f7f62de5cb653cfbaae",
-      "browser_download_url": "uemm_2.4.0.zip",
-      "github_download_url": "https://github.com/KintaroModding/uemodmanager/releases/download/v2.4.0/uemm_phantom-blade-zero_2.4.0.zip"
+      "name": "uemm_phantom-blade-zero_2.4.1.zip",
+      "size": 5688596,
+      "digest": "sha256:68724af734e6cd0aeeed3bfc04e0a3bbd8d1a535b6a8765b5b8299ee6e4329c9",
+      "browser_download_url": "uemm_2.4.1.zip",
+      "github_download_url": "https://github.com/KintaroModding/uemodmanager/releases/download/v2.4.1/uemm_phantom-blade-zero_2.4.1.zip"
     }
   ]
 }
