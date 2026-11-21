@@ -1,22 +1,22 @@
 {
-  "tag_name": "v2.5.0",
-  "html_url": "https://github.com/KintaroModding/uemodmanager/releases/tag/v2.5.0",
-  "published_at": "2026-11-21T10:59:55Z",
-  "body": "**Mods that share files**\n- Some authors make several mods with the same base files, such as character mods that bring one framework each. Until now, the second one could only replace the first.\n- When a download has files of an installed mod, byte for byte the same, and both have files of their own, the install review now offers **Keep both, and share the files that are the same in both**. One copy serves both mods; it stays while one of them is on and goes with the last. Choose it only when the authors say the mods work together. Thanks to the player who reported it.\n- **Update** stays the first choice. A choice that cannot work for the download is no longer shown, and **CHOICES EXPLAINED** above the list says what each choice is for.\n- The command line tool has `--share-files` for the same.\n\n**Install:** unzip `uemm_2.5.0.zip` into a folder you can write to, for example `Documents\\UE MM`, and start `UEModManager.exe`. One zip for every game. It needs the [.NET 8 Desktop Runtime (x64)](https://dotnet.microsoft.com/download/dotnet/8.0).\n\n**Update from an older version:** the app offers the update at start; one click installs it. Or replace `UEModManager.exe` with the new one. The `Data` folder stays. `uemm_phantom-blade-zero_2.5.0.zip` is the same file under its old name, for older versions of the app.\n\n**Something does not work?** In the app, open Settings ▸ Report a problem, copy the report and open an [issue](https://github.com/KintaroModding/uemodmanager/issues) with it.\n",
+  "tag_name": "v2.5.1",
+  "html_url": "https://github.com/KintaroModding/uemodmanager/releases/tag/v2.5.1",
+  "published_at": "2026-11-21T11:08:00Z",
+  "body": "**A small fix**\n- The install review starts at the top for each download. Before, it kept the scroll position of the last review, so the choices near the top could stay out of view.\n\nAlso in this version, from 2.5.0: **mods that share files**. When a download has files of an installed mod, byte for byte the same, and both have files of their own, the install review offers **Keep both, and share the files that are the same in both**, and **CHOICES EXPLAINED** says what each choice is for.\n\n**Install:** unzip `uemm_2.5.1.zip` into a folder you can write to, for example `Documents\\UE MM`, and start `UEModManager.exe`. One zip for every game. It needs the [.NET 8 Desktop Runtime (x64)](https://dotnet.microsoft.com/download/dotnet/8.0).\n\n**Update from an older version:** the app offers the update at start; one click installs it. Or replace `UEModManager.exe` with the new one. The `Data` folder stays. `uemm_phantom-blade-zero_2.5.1.zip` is the same file under its old name, for older versions of the app.\n\n**Something does not work?** In the app, open Settings ▸ Report a problem, copy the report and open an [issue](https://github.com/KintaroModding/uemodmanager/issues) with it.\n",
   "assets": [
     {
-      "name": "uemm_2.5.0.zip",
-      "size": 5702863,
-      "digest": "sha256:528df7562da76d559b915e0318416676c11069d9f953c6cbba325ac45e93b35b",
-      "browser_download_url": "uemm_2.5.0.zip",
-      "github_download_url": "https://github.com/KintaroModding/uemodmanager/releases/download/v2.5.0/uemm_2.5.0.zip"
+      "name": "uemm_2.5.1.zip",
+      "size": 5703257,
+      "digest": "sha256:ddf2c09100efb1be485212b742da714ef0f2f1e295497294bdbd0ad0ed27f376",
+      "browser_download_url": "uemm_2.5.1.zip",
+      "github_download_url": "https://github.com/KintaroModding/uemodmanager/releases/download/v2.5.1/uemm_2.5.1.zip"
     },
     {
-      "name": "uemm_phantom-blade-zero_2.5.0.zip",
-      "size": 5702863,
-      "digest": "sha256:528df7562da76d559b915e0318416676c11069d9f953c6cbba325ac45e93b35b",
-      "browser_download_url": "uemm_2.5.0.zip",
-      "github_download_url": "https://github.com/KintaroModding/uemodmanager/releases/download/v2.5.0/uemm_phantom-blade-zero_2.5.0.zip"
+      "name": "uemm_phantom-blade-zero_2.5.1.zip",
+      "size": 5703257,
+      "digest": "sha256:ddf2c09100efb1be485212b742da714ef0f2f1e295497294bdbd0ad0ed27f376",
+      "browser_download_url": "uemm_2.5.1.zip",
+      "github_download_url": "https://github.com/KintaroModding/uemodmanager/releases/download/v2.5.1/uemm_phantom-blade-zero_2.5.1.zip"
     }
   ]
 }
